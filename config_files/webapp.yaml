@@ -15,7 +15,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - name: mongodb
+      - name: webapp
         image: anirudh37/test-k8s-app:v2
         ports:
         - containerPort: 3000
